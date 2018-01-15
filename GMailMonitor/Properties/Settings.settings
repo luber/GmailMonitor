@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GMailMonitor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ImapSrv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">imap.gmail.com</Value>
+    </Setting>
+    <Setting Name="ImapUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ImapPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseSSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SslPort" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">993</Value>
+    </Setting>
+    <Setting Name="FlatNumberRegex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(?:(?:[кК]вартира|[кК][вВ])[.,]?\W(\d+[\wаА-яЯ]?)\W?)</Value>
+    </Setting>
+    <Setting Name="MeterReadingRegex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(\d+[,.]?\d+)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
